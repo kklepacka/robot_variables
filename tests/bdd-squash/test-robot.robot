@@ -5,5 +5,5 @@ Documentation       A simple robot that takes a screenshot of a given webpage,
 *** Tasks ***
 Open the given website and take a screenshot
     Log To Console    "variable inter: %{Inter}"
-    Log To Console    "variable simple: ${Simple}"
-    Log To Console    "variable liste: ${Navigateur}"
+    Log To Console    "variable simple: %{Simple}"
+    Log To Console    "variable liste: %{Navigateur}"
