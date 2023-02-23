@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.0 on win32)" generated="20230223 10:49:11.721" rpa="true" schemaversion="3">
+<suite id="s1" name="Test-Robot" source="c:\Users\kklepacka\Documents\SquashAD\Robot_variables\tests\bdd-squash\test-robot.robot">
+<test id="s1-t1" name="Open the given website and take a screenshot" line="15">
+<kw name="Log To Console" library="BuiltIn">
+<arg>"variable inter: ${URL}"</arg>
+<doc>Logs the given message to the console.</doc>
+<msg timestamp="20230223 10:49:11.759" level="FAIL">Variable '${URL}' not found.</msg>
+<status status="FAIL" starttime="20230223 10:49:11.759" endtime="20230223 10:49:11.760"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>"variable simple: ${Simple}"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230223 10:49:11.761" endtime="20230223 10:49:11.761"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>"variable liste: ${Navigateur}"</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230223 10:49:11.761" endtime="20230223 10:49:11.761"/>
+</kw>
+<status status="FAIL" starttime="20230223 10:49:11.758" endtime="20230223 10:49:11.762">Variable '${URL}' not found.</status>
+</test>
+<doc>A simple robot that takes a screenshot of a given webpage,
+taking the URL from an environment variable.</doc>
+<status status="FAIL" starttime="20230223 10:49:11.727" endtime="20230223 10:49:11.763"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test-Robot">Test-Robot</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230223 10:49:11.749" level="ERROR">Error in file 'c:\Users\kklepacka\Documents\SquashAD\Robot_variables\tests\bdd-squash\test-robot.robot' on line 7: Setting variable '${Inter}' failed: Environment variable '%{Inter}' not found.</msg>
+<msg timestamp="20230223 10:49:11.754" level="ERROR">Error in file 'c:\Users\kklepacka\Documents\SquashAD\Robot_variables\tests\bdd-squash\test-robot.robot' on line 9: Setting variable '${Navigateur}' failed: Environment variable '%{Navigateur}' not found.</msg>
+<msg timestamp="20230223 10:49:11.756" level="ERROR">Error in file 'c:\Users\kklepacka\Documents\SquashAD\Robot_variables\tests\bdd-squash\test-robot.robot' on line 8: Setting variable '${Simple}' failed: Environment variable '%{Simple}' not found.</msg>
+</errors>
+</robot>
